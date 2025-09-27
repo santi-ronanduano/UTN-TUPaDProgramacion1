@@ -36,6 +36,8 @@ print("El número tiene", contador, "dígito(s).")
 #3) Escribe un programa que sume todos los números enteros comprendidos entre dos valores
 #dados por el usuario, excluyendo esos dos valores.
 # a este ejercicio no lo pude lograar comprender muy bien 
+inicio=int(input("introduce el valor de inicio"))
+fin=int (input("introduce el valor de fin"))
 if inicio > fin:
     inicio, fin = fin, inicio  
 
@@ -226,3 +228,4 @@ if numero_original < 0:
     numero_invertido = -numero_invertido
 
 # Mostrar el resultado
+print("El número invertido es:", numero_invertido)
