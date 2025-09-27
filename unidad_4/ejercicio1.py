@@ -226,4 +226,3 @@ if numero_original < 0:
     numero_invertido = -numero_invertido
 
 # Mostrar el resultado
-print("El número invertido es:", numero_invertido)
